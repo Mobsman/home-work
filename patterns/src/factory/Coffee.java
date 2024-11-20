@@ -1,5 +1,5 @@
 package factory;
 
-public abstract class Coffee {
-    public abstract String brew();
+public interface Coffee {
+    public String brew();
 }

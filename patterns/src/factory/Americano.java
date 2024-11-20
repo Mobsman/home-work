@@ -1,9 +1,9 @@
 package factory;
 
-public class Americano extends Coffee{
+public class Americano implements Coffee{
 
     @Override
     public String brew() {
-        return "Завариваем американо";
+        return "americano ready";
     }
 }

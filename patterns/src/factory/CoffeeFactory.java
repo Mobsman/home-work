@@ -10,7 +10,5 @@ public class CoffeeFactory {
         };
     }
 
-    public static void main(String[] args) {
-        System.out.println(CoffeeFactory.createCoffee("espresso").brew());
-    }
+
 }

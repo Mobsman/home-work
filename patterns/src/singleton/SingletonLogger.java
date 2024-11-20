@@ -24,9 +24,4 @@ public class SingletonLogger {
 
         System.out.println("Log info: " + date + " - " + className + " - " + info);
     }
-
-    public static void main(String[] args) {
-        SingletonLogger logger = SingletonLogger.getInstance();
-        logger.createLog("String", "This is data");
-    }
 }
